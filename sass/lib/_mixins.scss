@@ -1,0 +1,13 @@
+@mixin flex-setting ($justify-c, $align-i, $align-c, $flex-d) {
+    display: flex;
+    justify-content: $justify-c;
+    align-items: $align-i;
+    align-content: $align-c;
+    flex-direction: $flex-d;
+};
+
+@mixin respond-to ($width)  {
+    @media only screen and (min-width: $width) {
+        @content;
+    }
+}

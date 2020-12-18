@@ -1,0 +1,9 @@
+// Configuracion de links
+
+a {
+	text-decoration : none;
+	color : $color-warmBlack;
+	&:focus {
+		outline : none;
+	}
+}
